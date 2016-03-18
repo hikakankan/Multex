@@ -1,0 +1,17 @@
+using System;
+using System.Windows.Forms;
+
+namespace Multex
+{
+	/// <summary>
+	/// MXTextBox ÇÃäTóvÇÃê‡ñæÇ≈Ç∑ÅB
+	/// </summary>
+	public class MXTextBox : System.Windows.Forms.TextBox
+	{
+		public MXTextBox()
+		{
+			TabStop = false;
+			ReadOnly = true;
+		}
+	}
+}
